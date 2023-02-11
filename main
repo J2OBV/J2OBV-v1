@@ -204,10 +204,6 @@ local __config = { -- custom sleeves, very nice tbh.
     Texture = "rbxassetid://11627980878"
 }
 
-if identifyexecutor() ~= "Synapse X" then 
-    
-	   
-end
 
 if isfile('welcome.txt')then
     while true do end    
@@ -5522,3 +5518,4 @@ game.RunService.Heartbeat:Connect(function()
         getsenv(game.Players.LocalPlayer.PlayerGui.GUI.Client).reviveme=true    
     end  
 end)
+
